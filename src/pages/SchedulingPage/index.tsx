@@ -13,7 +13,7 @@ import ClinicComponent from '../../components/Clinic';
 
 
 const SchedulingPage = (): JSX.Element => {
-  const { logedUser  } = useAuth();
+  const { logedUser  } = useAuth(); 
 
     
   const splitedUrl = window.location.pathname.split("/")
