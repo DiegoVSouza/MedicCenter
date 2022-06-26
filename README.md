@@ -1,2 +1,2 @@
-# cars-for-sale
-Study Project of a car's e commerce
+# Medic Center
+challenge project for trainee vacancy application
