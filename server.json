@@ -1,0 +1,147 @@
+{
+  "accounts": [
+    {
+      "id": 364576740890,
+      "name": "Medico01",
+      "email": "dsadw@dasda.com",
+      "password": "12345678",
+      "crn": "123456789",
+      "specialty": "dasdasd"
+    }
+  ],
+  "clinics": [
+    {
+      "id": 538007540782,
+      "userId": 364576740890,
+      "data": {
+        "complement": "dasda",
+        "cep": 213123,
+        "number": 213213,
+        "street": "dadas",
+        "cnpj": 3213123,
+        "name": "dasdsa"
+      },
+      "time": {
+        "capacity": 3,
+        "seg": [
+          "morningseg",
+          "afternoonseg"
+        ],
+        "ter": [
+          "morningtea",
+          "afternoontea"
+        ],
+        "qua": [
+          "afternoonqua"
+        ],
+        "sex": [
+          "morningsex",
+          "afternoonsex"
+        ],
+        "morningstart": "07:00",
+        "morningend": "11:00",
+        "afternoonstart": "13:00",
+        "afternoonend": "16:00"
+      }
+    },
+    {
+      "id": 160473850849,
+      "userId": 364576740890,
+      "data": {
+        "complement": "dadssa",
+        "cep": 213123,
+        "number": 213123,
+        "street": "ddada",
+        "cnpj": 312312,
+        "name": "dasdas"
+      },
+      "time": {
+        "capacity": 3,
+        "seg": [
+          "morningseg",
+          "afternoonseg"
+        ],
+        "ter": [
+          "morningtea",
+          "afternoontea"
+        ],
+        "qua": [
+          "afternoonqua"
+        ],
+        "qui": [
+          "morningqui",
+          "afternoonqui",
+          "nightqui"
+        ],
+        "sex": [
+          "nightsex"
+        ],
+        "morningstart": "07:00",
+        "morningend": "10:00",
+        "afternoonstart": "15:30",
+        "afternoonend": "16:59",
+        "nightstart": "18:00",
+        "nightend": "21:00"
+      }
+    }
+  ],
+  "patients": [
+    {
+      "email": "asdsad@dsadas.com",
+      "password": "s2112312",
+      "name": "asdasd",
+      "id": 1
+    },
+    {
+      "id": 888199956590,
+      "name": "asdjsaiodjoas",
+      "email": "sdasd@dsada.cods",
+      "password": "123"
+    },
+    {
+      "id": 1226374522563,
+      "name": "Paciente02",
+      "phone": "88998213231",
+      "cpf": "11111111111"
+    },
+    {
+      "id": 1336701561173,
+      "name": "Paciente03",
+      "phone": "293812983912",
+      "cpf": "11111111111"
+    },
+    {
+      "id": 997924291071,
+      "name": "Paciente04",
+      "phone": "2312312",
+      "cpf": "11111111111"
+    },
+    {
+      "id": 264966753508,
+      "name": "Paciente06",
+      "phone": "3123213",
+      "cpf": "11111111111"
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1035297517196,
+      "userId": 264966753508,
+      "clinicId": 538007540782,
+      "clinicName": "dasdsa",
+      "medicId": 364576740890,
+      "date": "29/06/2022",
+      "day": "Quarta",
+      "shift": "Tarde"
+    },
+    {
+      "id": 957652988240,
+      "clinicId": 538007540782,
+      "clinicName": "dasdsa",
+      "medicId": 364576740890,
+      "date": "17/06/2022",
+      "day": "Sexta",
+      "shift": "Manha"
+    }
+  ]
+}
